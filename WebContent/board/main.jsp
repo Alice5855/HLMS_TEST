@@ -7,9 +7,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="description" content="main.jsp">
-<title>HakSa</title>
+<title>학사 관리 포털</title>
+<link href="${context}/css/fonts.css" rel="stylesheet">
+<link href="${context}/css/sass/jumbotronimg.css" rel="stylesheet">
 <link href="${context}/css/bootstrap.min.css" rel="stylesheet">
 <link href="${context}/css/bootstrap-theme.css" rel="stylesheet">
+<link href="${context}/css/fonts.css" rel="stylesheet">
+<link href="${context}/css/sass/jumbotronimg.css" rel="stylesheet">
 </head>
 
 <c:set var="loginUrl">${context}/user/login.jsp</c:set>
@@ -19,15 +23,15 @@
 <body>
 <jsp:include page="../common/top.jsp"></jsp:include>
 	<div id="jumbotron" class="container">
-		<div class="jumbotron jumbotron-info" style="background-color: lightgreen;">
-			<h1><font color="green"><strong>HakSa</strong>&nbsp;<span class="glyphicon glyphicon-blackboard"></span></font></h1>
-			<p><font color="green">Welcome To HS HakSa</font></p>
+		<div class="jumbotron jumbotron-info" style="background-color: ;">
+			<h1><font color=""><strong>HakSa</strong>&nbsp;<span class="glyphicon glyphicon-blackboard"></span></font></h1>
+			<p><font color="">Welcome To HS HakSa</font></p>
 		</div>
 	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<div class="panel panel-success">
+				<div class="panel panel-danger">
 					<div class="panel-heading">
 						<h3 class="panel-title">Editor's Choice</h3>
 					</div>
@@ -42,7 +46,7 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<div class="panel panel-success">
+				<div class="panel panel-danger">
 					<div class="panel-heading">
 						<h3 class="panel-title">Editor's Hits</h3>
 					</div>
@@ -59,7 +63,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-8">
-				<div class="panel panel-success">
+				<div class="panel panel-danger">
 					<div class="panel-heading">
 						<h3 class="panel-title">Recent Board<a onclick ="javascript:fn_isLogin('${sessionScope.userCode}','${loginUrl}','${context}/work/board/retrieveBoardList.do')"><font color="lightblack"><span class="glyphicon glyphicon-plus pull-right"></span></font></a></h3>
 					</div>
@@ -74,7 +78,7 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="panel panel-info">
+				<div class="panel panel-warning">
 					<div class="panel-heading">
 						<h3 class="panel-title">Recent Connected UserList</h3>
 					</div>

@@ -7,7 +7,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="description" content="pwFind.jsp">
-<title>HakSa</title>
+<title>학사 관리 포털</title>
+<link href="${context}/css/fonts.css" rel="stylesheet">
+<link href="${context}/css/sass/jumbotronimg.css" rel="stylesheet">
 <link href="../css/bootstrap.min.css" rel="stylesheet">
 <link href="../css/bootstrap-theme.css" rel="stylesheet">
 <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
@@ -55,8 +57,8 @@
 <body>
 	<jsp:include page="../common/top.jsp"></jsp:include>
 	<div id="jumbotron" class="container">
-		<div class="jumbotron jumbotron-info" style="background-color: lightgreen;">
-			<h1><font color="green"><strong>PW찾기</strong>&nbsp;<span class="glyphicon glyphicon glyphicon-pencil"></span></font></h1>
+		<div class="jumbotron jumbotron-info" style="background-color:">
+			<h1><font color=""><strong>PW찾기</strong>&nbsp;<span class="glyphicon glyphicon glyphicon-pencil"></span></font></h1>
 		</div>
 	</div>
 

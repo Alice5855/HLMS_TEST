@@ -7,7 +7,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="description" content="boardListR.jsp">
-<title>HakSa</title>
+<title>학사 관리 포털</title>
+	<link href="${context}/css/fonts.css" rel="stylesheet">
+	<link href="${context}/css/sass/jumbotronimg.css" rel="stylesheet">
     <link href="${context}/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<script src="${context}/js/jquery-1.9.1.js"></script>
 
@@ -32,9 +34,9 @@
 <body>
 <jsp:include page="../common/top.jsp"></jsp:include>
 <div id="jumbotron" class="container">
-		<div class="jumbotron jumbotron-info" style="background-color: lightgreen;">
-			<h1><font color="green"><strong>HakSa</strong>&nbsp;<span class="glyphicon glyphicon-blackboard"></span></font></h1>
-			<p><font color="green">Welcome To HakSa</font></p>
+		<div class="jumbotron jumbotron-info" style="background-color:">
+			<h1><font color=""><strong>HakSa</strong>&nbsp;<span class="glyphicon glyphicon-blackboard"></span></font></h1>
+			<p><font color="">Welcome To HakSa</font></p>
 		</div>
 		<div class="row">
 			<div class="col-md-12">

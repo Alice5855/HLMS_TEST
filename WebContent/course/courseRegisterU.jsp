@@ -10,8 +10,10 @@
 	<meta name="description" content="courseRegisterU.jsp">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>HakSa</title>
+	<title>학사 관리 포털</title>
 
+	<link href="${context}/css/fonts.css" rel="stylesheet">
+	<link href="${context}/css/sass/jumbotronimg.css" rel="stylesheet">
 	<link href="${context}/css/bootstrap.min.css" rel="stylesheet">
 	<link href="${context}/css/bootstrap-theme.css" rel="stylesheet">
 	<link href="${context}/css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
@@ -67,8 +69,8 @@
 <body>
 <jsp:include page="../common/top.jsp"></jsp:include>
 	<div class="container">
-		<div class="jumbotron jumbotron-info" style="background-color: none;">
-			<h1><font color="black"><strong>과목개설 수정</strong>&nbsp;<span class="glyphicon glyphicon-list-alt"></span></font></h1>
+		<div class="jumbotron jumbotron-info" style="background-color:">
+			<h1><font color=""><strong>과목개설 수정</strong>&nbsp;<span class="glyphicon glyphicon-list-alt"></span></font></h1>
 			<p>과목개설 수정 페이지입니다.</p>
 		</div>
 	</div>
@@ -122,10 +124,10 @@
 		<div class="form-group">
 			<label class="control-label col-md-12"></label>
 			<div class="col-md-1 col-md-offset-6">
-				<button type="button" class="btn btn-success" onclick="fn_save()">변경하기</button>
+				<button type="button" class="btn btn-danger" onclick="fn_save()">변경하기</button>
 			</div>
 			<div class="col-md-1">
-				<button type="button" class="btn btn-success" onclick="fn_back()">뒤로가기</button>
+				<button type="button" class="btn btn-warning" onclick="fn_back()">뒤로가기</button>
 			</div>
 		</div>
 	</div>

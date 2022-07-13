@@ -7,7 +7,9 @@
 <head>
 	<meta name="description" content="threeRegisterC.jsp">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>HakSa</title>
+	<title>학사 관리 포털</title>
+	<link href="${context}/css/fonts.css" rel="stylesheet">
+	<link href="${context}/css/sass/jumbotronimg.css" rel="stylesheet">
 	<link href="${context}/css/bootstrap-theme.css" rel="stylesheet">
 	<link href="${context}/css/plugins/social-buttons.css" rel="stylesheet">
 	<link href="${context}/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -91,8 +93,8 @@
 		                    </div>
 	                    </div>
 	                    <input type="hidden" id="pUserCode" name="pUserCode">
-	                <button type="button" id="btnSubmit" name="btnSubmit" class="btn btn-success pull-right" onclick="fn_back()">취소</button>
-			        <button type="button" id="btnSubmit" name="btnSubmit" class="btn btn-primary pull-right" onclick="fn_save()">지원서 제출</button>
+	                <button type="button" id="btnSubmit" name="btnSubmit" class="btn btn-primary pull-right" onclick="fn_back()">취소</button>
+			        <button type="button" id="btnSubmit" name="btnSubmit" class="btn btn-danger pull-right" onclick="fn_save()">지원서 제출</button>
 			        </div>
 		        </form>
 		    </div>

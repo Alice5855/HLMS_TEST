@@ -7,7 +7,9 @@
 <head>
 		<meta name="description" content="boardRegisterC.jsp">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>HakSa</title>
+	<title>학사 관리 포털</title>
+	<link href="${context}/css/fonts.css" rel="stylesheet">
+	<link href="${context}/css/sass/jumbotronimg.css" rel="stylesheet">
 	<link href="${context}/css/bootstrap.min.css" rel="stylesheet">
 	<link href="${context}/css/bootstrap-theme.css" rel="stylesheet">
 	<link href="${context}/css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
@@ -68,10 +70,10 @@
 			</div>
 		</div>
 		<div class="col-md-offset-1 col-md-2">
-			<button type="button" class="btn btn-default" onclick="fn_back()">취소</button>
+			<button type="button" class="btn btn-warning" onclick="fn_back()">취소</button>
 		</div>
 		<div class="col-md-offset-8 col-md-1">
-			<button class="btn btn-primary" type="button" name="btnSubmit" id="btnSubmit" onclick="fn_save()">등록하기</button>
+			<button class="btn btn-danger" type="button" name="btnSubmit" id="btnSubmit" onclick="fn_save()">등록하기</button>
 		</div>
 	</form>
 	</div>

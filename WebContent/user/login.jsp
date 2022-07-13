@@ -10,8 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="">
 
-    <title>HakSa</title>
-
+    <title>학사 관리 포털</title>
+    <link href="${context}/css/fonts.css" rel="stylesheet">
+	<link href="${context}/css/sass/jumbotronimg.css" rel="stylesheet">
     <link href="${context}/css/bootstrap.min.css" rel="stylesheet">
     <link href="${context}/css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
     <link href="${context}/css/sb-admin-2.css" rel="stylesheet">
@@ -72,9 +73,9 @@
 <body>
 	<jsp:include page="../common/top.jsp"></jsp:include>
 	<div id="jumbotron" class="container">
-		<div class="jumbotron jumbotron-info" style="background-color: lightgreen;">
-			<h1><font color="green"><strong>LOGIN</strong>&nbsp;<span class="glyphicon glyphicon glyphicon-pencil"></span></font></h1>
-			<p><font color="black">HakSa에 오신것을 진심으로 환영합니다.</font></p>
+		<div class="jumbotron jumbotron-info" style="background-color:">
+			<h1><font color=""><strong>LOGIN</strong>&nbsp;<span class="glyphicon glyphicon glyphicon-pencil"></span></font></h1>
+			<p><font color=""><b>학사 관리 포털에 오신 것을 환영합니다</b></font></p>
 		</div>
 	</div>
     <div class="container">
@@ -94,11 +95,11 @@
                                     <input class="form-control" placeholder="Password" id="pw" name="pw" type="password">
                                 </div>
                                 <div class="form-group">
-                                	<span style="float: left;"><a href="${context}/user/idFind.jsp">ID찾기</a>|<a href="pwFind.jsp">PW찾기</a></span>
+                                	<span style="float: left;"><a href="${context}/user/idFind.jsp">ID찾기 </a>|<a href="pwFind.jsp"> PW찾기</a></span>
                                 	<span style="float: right;"><a href="${context}/work/user/createUser.do">회원가입</a></span><br>
                                 </div>
                                 <!-- Change this to a button or input when using this as a form -->
-                                <button type="button" class="btn btn-lg btn-success btn-block" onclick="ajaxLoginCheck();">Login</button>
+                                <button type="button" class="btn btn-lg btn-danger btn-block" onclick="ajaxLoginCheck();">Login</button>
                             </fieldset>
                         </form>
                     </div>

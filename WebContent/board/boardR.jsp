@@ -7,7 +7,9 @@
 <head>
 		<meta name="description" content="boardR.jsp">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>HakSa</title>
+	<title>학사 관리 포털</title>
+	<link href="${context}/css/fonts.css" rel="stylesheet">
+	<link href="${context}/css/sass/jumbotronimg.css" rel="stylesheet">
 	<link href="${context}/css/bootstrap.min.css" rel="stylesheet">
 	<link href="${context}/css/bootstrap-theme.css" rel="stylesheet">
 	<link href="${context}/css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
@@ -151,7 +153,7 @@ li{
 			<button class="btn btn-warning" type="button"  onclick="fn_update()">수정</button>
 		</div>
 		<div class="col-md-offset-10 col-md-1">
-			<button class="btn btn-primary" type="button" name="btnSubmit" id="btnSubmit" onclick="fn_delete()">삭제</button>
+			<button class="btn btn-danger" type="button" name="btnSubmit" id="btnSubmit" onclick="fn_delete()">삭제</button>
 		</div>
 	</div>
 

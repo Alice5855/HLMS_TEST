@@ -7,9 +7,7 @@
 <head>
 	<meta name="description" content="userC.jsp">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>학사 관리 포털</title>
-    <link href="${context}/css/fonts.css" rel="stylesheet">
-	<link href="${context}/css/sass/jumbotronimg.css" rel="stylesheet">
+	<title>HakSa</title>
 	<link href="${context}/css/bootstrap.min.css" rel="stylesheet">
 	<link href="${context}/css/bootstrap-theme.css" rel="stylesheet">
 	<link href="${context}/css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
@@ -166,8 +164,8 @@
 <body>
 <jsp:include page="../common/top.jsp"></jsp:include>
 	<div id="jumbotron" class="container">
-		<div class="jumbotron jumbotron-info" style="background-color:">
-			<h1><font color=""><strong>회원가입</strong>&nbsp;<span class="glyphicon glyphicon glyphicon-pencil"></span></font></h1>
+		<div class="jumbotron jumbotron-info" style="background-color: lightgreen;">
+			<h1><font color="green"><strong>회원가입</strong>&nbsp;<span class="glyphicon glyphicon glyphicon-pencil"></span></font></h1>
 		</div>
 	</div>
 	<div class="container">
@@ -267,7 +265,6 @@
 				</div>
 				<input type="hidden" id="address" name="address">
 			</div>
-			
 			<div class="form-group">
 				<label for="grade" class="control-label col-md-2"><b>구분</b></label>
 				<div class="col-md-2">
@@ -301,10 +298,10 @@
 		<br><br><br>
 		<div class="form-group">
 			<div class="col-md-offset-6 col-md-1">
-				<button type="button" class="btn btn-primary" onclick="fn_back()">뒤로가기</button>
+				<button type="button" class="btn btn-success" onclick="fn_back()">뒤로가기</button>
 			</div>
 			<div class="col-md-1">
-				<button class="btn btn-danger" type="button" name="btnSubmit" id="btnSubmit" onclick="fn_save()">등록하기</button>
+				<button class="btn btn-primary" type="button" name="btnSubmit" id="btnSubmit" onclick="fn_save()">등록하기</button>
 			</div>
 		</div>
 	</form>
@@ -319,8 +316,8 @@
 						<button type="button" class="close" data-dismiss="modal">&times;</button>
 						<h4 class="modal-title">주소검색</h4>
 					</div>
-						<div class="modal-body" style="height: 100px;">
-							<div class="col-md-2">
+						<div class="modal-body" style="height: 50px;">
+							<div class="col-md-6">
 								<input class="form-control" type="text" id="dong" name="dong" placeholder="동을 입력하세요.ex)역삼1동"/>
 							</div>
 							<div class="col-md-1">

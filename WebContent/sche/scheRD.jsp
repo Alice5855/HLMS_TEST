@@ -7,7 +7,9 @@
 <head>
 		<meta name="description" content="scheRD.jsp">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>HakSa</title>
+	<title>학사 관리 포털</title>
+	<link href="${context}/css/fonts.css" rel="stylesheet">
+	<link href="${context}/css/sass/jumbotronimg.css" rel="stylesheet">
 	<link href="${context}/css/bootstrap.min.css" rel="stylesheet">
 	<link href="${context}/css/bootstrap-theme.css" rel="stylesheet">
 	<link href="${context}/css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">

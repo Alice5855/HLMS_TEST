@@ -13,8 +13,8 @@
 	<footer style="text-align: center;">
 	<hr>
 	<h4>
-		<p>서울시 마포구 상암동 상암월드컵경기장 111-222 TEL. 010-1111-2222 / FAX. 02-1234-5678</p>
-		<p>Copyright &copy;2040 Fighting. Allright Reserved.</p>
+		<p>제주 특별자치도 서귀포시 성산읍 섭지코지로 95 63642 TEL. 1833-7001</p>
+		<p>Copyright &copy;2022 dev. All right Reserved.</p>
 		<br>
 	</h4>
 	</footer>
