@@ -5,9 +5,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style type="text/css">
+	* {font-family: 'noto sans kr' !important}
+</style>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>HLMS 게시판 프로그램</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="${context}/css/fonts.css" rel="stylesheet">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <link href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css" rel="stylesheet" >
 <link href="${context}/css/common.css" rel="stylesheet">

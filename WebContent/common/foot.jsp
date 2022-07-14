@@ -5,8 +5,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style type="text/css">
+	* {font-family: 'noto sans kr' !important}
+</style>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>HLMS 게시판 프로그램</title>
+<link href="${context}/css/fonts.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
