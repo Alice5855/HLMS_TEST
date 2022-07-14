@@ -67,7 +67,7 @@
 <jsp:include page="../common/top.jsp"></jsp:include>
 	<br><br><br>
 		<div class="container">
-		<div class="jumbotron">
+		<div class="jumbotron" style="background-color: #bdbdbd;">
 			<div class="row">
 				<div class="col-md-10">
 					<div class="page-header">

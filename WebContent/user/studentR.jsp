@@ -109,7 +109,7 @@
 
        <br>
         <div class="col-md-offset-2 col-md-8 toppad" >
-          <div class="panel panel-info">
+          <div class="panel panel-danger">
             <div class="panel-heading">
               <h3 class="panel-title">Student Information</h3>
             </div>

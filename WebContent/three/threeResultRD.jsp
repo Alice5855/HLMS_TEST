@@ -60,7 +60,7 @@
 					</div>
 					<br><br><br><br>
 					<div class="col-md-2 col-md-offset-5">
-						<button type="button" class="btn btn-info btn-lg"  style="float:right;" onclick="fn_home()"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;홈으로</button>
+						<button type="button" class="btn btn-danger btn-lg"  style="float:right;" onclick="fn_home()"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;홈으로</button>
 					</div>
 					<c:if test="${dsThree.APP_STATUS == '6'}">
 						<div class="col-md-2 col-md-offset-3">

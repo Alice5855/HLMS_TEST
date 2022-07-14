@@ -93,7 +93,7 @@
 		                    </div>
 	                    </div>
 	                    <input type="hidden" id="pUserCode" name="pUserCode">
-	                <button type="button" id="btnSubmit" name="btnSubmit" class="btn btn-primary pull-right" onclick="fn_back()">취소</button>
+	                <button type="button" id="btnSubmit" name="btnSubmit" class="btn btn-warning pull-right" onclick="fn_back()">취소</button>
 			        <button type="button" id="btnSubmit" name="btnSubmit" class="btn btn-danger pull-right" onclick="fn_save()">지원서 제출</button>
 			        </div>
 		        </form>
