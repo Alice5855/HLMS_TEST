@@ -36,7 +36,7 @@
 <div id="jumbotron" class="container">
 		<div class="jumbotron jumbotron-info" style="background-color:">
 			<h1><font color=""><strong>HakSa</strong>&nbsp;<span class="glyphicon glyphicon-blackboard"></span></font></h1>
-			<p><font color="">Welcome To HakSa</font></p>
+			<p><font color="">학사 관리 포털에 오신 것을 환영합니다</font></p>
 		</div>
 		<div class="row">
 			<div class="col-md-12">

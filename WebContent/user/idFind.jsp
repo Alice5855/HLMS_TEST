@@ -69,7 +69,7 @@
 					<input class="form-control" type="email" name="email" id="email" autofocus="autofocus"/>
 				</div>
 				<div class="col-md-2">
-					<input class="btn btn-default" type="button" name="btnSubmit" id="btnSubmit" value="확인" onclick="retrieveUserId()"/>
+					<input class="btn btn-danger" type="button" name="btnSubmit" id="btnSubmit" value="확인" onclick="retrieveUserId()"/>
 				</div>
 			</div>
 			<div class="form-group" id="message">

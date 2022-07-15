@@ -79,7 +79,7 @@
 					<input class="form-control" type="email" name="email" id="email"/>
 				</div>
 				<div class="col-md-2">
-					<input class="btn btn-default" type="button" name="btnSubmit" id="btnSubmit" value="확인" onclick="retrieveUserPw()"/>
+					<input class="btn btn-danger" type="button" name="btnSubmit" id="btnSubmit" value="확인" onclick="retrieveUserPw()"/>
 				</div>
 			</div>
 			<div class="form-group" id="message">

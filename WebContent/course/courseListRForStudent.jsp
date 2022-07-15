@@ -68,7 +68,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="page-header">
-						  <h1><span class="glyphicon glyphicon-list-alt" style="vertical-align: middle; margin-left: 5px;"></span>&nbsp;수강과목 리스트</h1>
+						  <h1 style="font-size: 3em"><span class="glyphicon glyphicon-list-alt" style="vertical-align: middle; margin-left: 5px;"></span>&nbsp;수강과목 리스트</h1>
 					</div>
 						<div class="col-md-12">
 						    <div class="panel panel-default">
@@ -96,7 +96,7 @@
 						                            <td style="text-align: center; vertical-align: middle;">${dsCourseList.COURSE_DAY}요일</td>
 						                            <td style="text-align: center; vertical-align: middle;">${dsCourseList.COURSE_PERIOD}교시</td>
 						                            <td style="text-align: center; vertical-align: middle;">
-						                            	<button type="button" name="registerBtn" class="btn btn-primary" onclick="fn_createCourse('${dsCourseList.COURSE_CODE}','${dsCourseList.COURSE_NAME}','${dsCourseList.COURSE_DAY}','${dsCourseList.COURSE_PERIOD}')">수강신청</button>
+						                            	<button type="button" name="registerBtn" class="btn btn-danger" onclick="fn_createCourse('${dsCourseList.COURSE_CODE}','${dsCourseList.COURSE_NAME}','${dsCourseList.COURSE_DAY}','${dsCourseList.COURSE_PERIOD}')">수강신청</button>
 							                             <script type="text/javascript">
 							                            	if('${dsCourseList.REGISTER_YN}' == 'N'){
 							                            		$("button[name='registerBtn']").eq('${courseIdx.index}').parent().parent().find("td").addClass("importantYellow");
@@ -119,7 +119,7 @@
 				</div>
 				<div class="col-md-6">
 					<div class="page-header">
-						  <h1><span class="glyphicon glyphicon-list-alt" style="vertical-align: middle; margin-left: 5px;"></span>&nbsp;<font color="blue">${sessionScope.id}</font>님의 신청과목</h1>
+						  <h1 style="font-size: 3em"><span class="glyphicon glyphicon-list-alt" style="vertical-align: middle; margin-left: 5px;"></span>&nbsp;<font color="blue">${sessionScope.id}</font>님의 신청과목</h1>
 					</div>
 					<div class="col-md-12">
 					    <div class="panel panel-default">

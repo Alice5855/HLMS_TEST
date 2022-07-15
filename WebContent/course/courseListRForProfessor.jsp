@@ -12,7 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>학사 관리 포털</title>
 
- 	<link href="${context}/css/bootstrap.min.css" rel="stylesheet">
+ 	<%-- <link href="${context}/css/bootstrap.min.css" rel="stylesheet">
  	<link href="${context}/css/bootstrap-theme.css" rel="stylesheet">
  	<link href="${context}/css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
  	<link href="${context}/css/plugins/dataTables.bootstrap.css" rel="stylesheet">
@@ -29,7 +29,7 @@
      <script src="${context}/js/plugins/dataTables/jquery.dataTables.js"></script>
      <script src="${context}/js/plugins/dataTables/dataTables.bootstrap.js"></script>
 
-     <script src="${context}/js/sb-admin-2.js"></script>
+     <script src="${context}/js/sb-admin-2.js"></script> --%>
 
     <script>
 
@@ -102,7 +102,7 @@
 				                            <td style="text-align: center; vertical-align: middle;">${dsCourseList.COURSE_DAY}요일</td>
 				                            <td style="text-align: center; vertical-align: middle;">${dsCourseList.COURSE_PERIOD}교시</td>
 				                            <td style="text-align: center; vertical-align: middle;">
-				                            	<button type="button" name="registerBtn" class="btn btn-primary" onclick="fn_createCourse('${dsCourseList.COURSE_CODE}','${dsCourseList.COURSE_NAME}','${dsCourseList.COURSE_DAY}','${dsCourseList.COURSE_PERIOD}')">담당신청</button>
+				                            	<button type="button" name="registerBtn" class="btn btn-danger" onclick="fn_createCourse('${dsCourseList.COURSE_CODE}','${dsCourseList.COURSE_NAME}','${dsCourseList.COURSE_DAY}','${dsCourseList.COURSE_PERIOD}')">담당신청</button>
 					                             <script type="text/javascript">
 					                            	if('${dsCourseList.COURSE_ASSIGN_YN}' == 'Y'){
 					                            		$("button[name='registerBtn']").eq('${courseIdx.index}').parent().parent().find("td").addClass("importantYellow");

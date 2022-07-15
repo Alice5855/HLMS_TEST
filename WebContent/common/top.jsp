@@ -96,16 +96,16 @@ a{
                     <ul class="nav navbar-nav">
                     <c:if test="${sessionScope.id != null}">
                         <li class="dropdown">
-                            <a class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">특강신청 <span class="caret"></span></a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">특강신청 <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                             <c:if test="${sessionScope.grade == 'S'}">
                                 <li class="dropdown">
                                     <a onclick="fn_checkThree()"
-                                     class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">특강신청서 작성</a>
+                                     class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">특강신청서 작성</a>
                                 </li>
 								<li class="dropdown">
                                     <a onclick="fn_checkPass()"
-                                     class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">합격조회</a>
+                                     class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">합격조회</a>
                                 </li>
                             </c:if>
                             <c:if test="${sessionScope.grade == 'P'}">
@@ -127,7 +127,7 @@ a{
                             </c:if>
                             </ul>
                         </li>
-                        <li class="dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">수강신청<span class="caret"></span></a>
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">수강신청<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                             	<c:if test="${sessionScope.grade == 'P'}">
                             		<li><a href="${context}/work/course/createCourse.do">과목개설</a></li>
@@ -150,7 +150,7 @@ a{
                                 </c:if>
                             </ul>
                         </li>
-                        <li class="dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">학생정보서비스<span class="caret"></span></a>
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">학생정보서비스<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a onclick="javascript:fn_isLogin('${sessionScope.userCode}','${loginUrl}','${context}/work/user/retrieveUser.do')">학생Pool</a></li>
                             </ul>

@@ -71,7 +71,7 @@
 			<div class="row">
 				<div class="col-md-10">
 					<div class="page-header">
-						  <h1><span class="glyphicon glyphicon-list-alt" style="vertical-align: middle;"></span>&nbsp;<font color="blue">${sessionScope.id}</font>님의 시간표</h1>
+						  <h1 style="font-size: 3em;"><span class="glyphicon glyphicon-list-alt" style="vertical-align: middle;"></span>&nbsp;<font color="blue">${sessionScope.id}</font>님의 시간표</h1>
 					</div>
 				</div>
 			<div class="col-md-12">

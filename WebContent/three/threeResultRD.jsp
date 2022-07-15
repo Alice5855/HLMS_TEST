@@ -44,16 +44,16 @@
 					</div>
 					<div class="offer-content">
 					<br><br><br>
-						<h2 align="center" style="font-family: cursive;">
+						<h2 align="center" style="font-family: 'noto sans kr';">
 							특강신청
 						</h2>
 						<br><br><br>
-						<h1 align="center" style="font-family: inherit;">
+						<h1 align="center" style="font-family: 'noto sans kr';">
 							결과 : ${dsThree.APP_STATUS_NAME }
 						</h1>
 						<br><br><br>
 						<c:if test="${dsThree.APP_STATUS == '6'}">
-						<h2 align="center" style="font-family: cursive;">
+						<h2 align="center" style="font-family: 'noto sans kr';">
 							축하드립니다
 						</h2>
 						</c:if>

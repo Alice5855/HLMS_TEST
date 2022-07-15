@@ -319,7 +319,7 @@
 		<br><br><br>
 		<div class="form-group">
 			<div class="col-md-offset-6 col-md-1">
-				<button type="button" class="btn btn-primary" onclick="fn_back()">뒤로가기</button>
+				<button type="button" class="btn btn-warning" onclick="fn_back()">뒤로가기</button>
 			</div>
 			<div class="col-md-1">
 				<button class="btn btn-danger" type="button" name="btnSubmit" id="btnSubmit" onclick="fn_save()">등록하기</button>
