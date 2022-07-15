@@ -73,9 +73,9 @@
 <body>
 	<jsp:include page="../common/top.jsp"></jsp:include>
 	<div id="jumbotron" class="container">
-		<div class="jumbotron jumbotron-info" style="background-color:">
-			<h1><font color=""><strong>LOGIN</strong>&nbsp;<span class="glyphicon glyphicon glyphicon-pencil"></span></font></h1>
-			<p><font color=""><b>학사 관리 포털에 오신 것을 환영합니다</b></font></p>
+		<div class="jumbotron jumbotron-info">
+			<h1><strong>LOGIN</strong>&nbsp;<span class="glyphicon glyphicon glyphicon-pencil"></span></h1>
+			<p><b>학사 관리 포털에 오신 것을 환영합니다</b></p>
 		</div>
 	</div>
     <div class="container">

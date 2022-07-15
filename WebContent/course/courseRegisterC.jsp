@@ -52,9 +52,9 @@
 <body>
 <jsp:include page="../common/top.jsp"></jsp:include>
 	<div class="container">
-		<div class="jumbotron jumbotron-info" style="background-color:">
-			<h1><font color=""><strong>과목개설 등록</strong>&nbsp;<span class="glyphicon glyphicon-list-alt"></span></font></h1>
-			<p>과목개설 등록 페이지입니다.</p>
+		<div class="jumbotron jumbotron-info">
+			<h1><strong>과목개설 등록</strong>&nbsp;<span class="glyphicon glyphicon-list-alt"></span></h1>
+			<p style="font-weight: bold;">과목개설 등록 페이지입니다.</p>
 		</div>
 	</div>
 	<div class="container">

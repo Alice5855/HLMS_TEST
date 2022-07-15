@@ -23,9 +23,9 @@
 <body>
 <jsp:include page="../common/top.jsp"></jsp:include>
 	<div id="jumbotron" class="container">
-		<div class="jumbotron jumbotron-info" style="background-color: ;">
-			<h1><font color=""><strong>Haksa</strong>&nbsp;<span class="glyphicon glyphicon-blackboard"></span></font></h1>
-			<p><font color="">학사 관리 포털에 오신 것을 환영합니다</font></p>
+		<div class="jumbotron jumbotron-info">
+			<h1><strong>Haksa</strong>&nbsp;<span class="glyphicon glyphicon-blackboard"></span></h1>
+			<p><b>학사 관리 포털에 오신 것을 환영합니다</b></p>
 		</div>
 	</div>
 	<div class="container">

@@ -36,7 +36,7 @@
 	<div id="jumbotron" class="container">
 		<div class="row" style="margin-bottom: 10%;">
 			<div class="col-md-12">
-				<div class="offer offer-success">
+				<div class="offer offer-warning">
 					<div class="shape">
 						<div class="shape-text">
 							Thanks

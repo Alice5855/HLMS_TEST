@@ -84,8 +84,8 @@
 <body>
 <jsp:include page="../common/top.jsp"></jsp:include>
 	<div id="jumbotron" class="container">
-		<div class="jumbotron jumbotron-info" style="background-color:">
-			<h1><font color=""><strong>학생Pool</strong>&nbsp;<span class="glyphicon glyphicon glyphicon-pencil"></span></font></h1>
+		<div class="jumbotron jumbotron-info">
+			<h1><strong>학생Pool</strong>&nbsp;<span class="glyphicon glyphicon glyphicon-pencil"></span></h1>
 		</div>
 	</div>
 	<br><br><br><br><br>
