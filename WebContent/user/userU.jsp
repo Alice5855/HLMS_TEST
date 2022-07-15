@@ -337,7 +337,7 @@
 						<h4 class="modal-title">주소검색</h4>
 					</div>
 						<div class="modal-body" style="height: 100px;">
-							<div class="col-md-2">
+							<div class="col-md-6">
 								<input class="form-control" type="text" id="dong" name="dong" placeholder="동을 입력하세요.ex)역삼1동"/>
 							</div>
 							<div class="col-md-1">

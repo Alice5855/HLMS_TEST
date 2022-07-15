@@ -42,7 +42,7 @@
 			<div class="col-md-12">
 			<c:if test="${sessionScope.grade == 'P'}">
 				<div class="page-header" style="float: right;">
-					  <button type="button" class="btn btn-success btn-lg" onclick="fn_createSche()">일정쓰기</button>
+					  <button type="button" class="btn btn-danger btn-lg" onclick="fn_createSche()">일정쓰기</button>
 				</div>
 			</c:if>
 			</div>

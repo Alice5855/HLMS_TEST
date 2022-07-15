@@ -6,7 +6,7 @@
 <html>
 <head>
 <style type="text/css">
-	footer {font-family: 'noto sans kr' !important}
+	footer {font-family: 'noto sans kr' !important;}
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>HLMS 게시판 프로그램</title>
